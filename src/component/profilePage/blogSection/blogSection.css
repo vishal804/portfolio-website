@@ -1,0 +1,14 @@
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+.blog {
+  padding: 1rem;
+  width: 15rem;
+  border: 1px solid #1e96fc;
+  border-width: 0.2rem;
+  border-radius: 5px;
+}

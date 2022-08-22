@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 5rem 0;
+}
+
+.picture {
+  height: 31rem;
+  width: 19rem;
+}
+
+.about-info {
+  font-size: 2rem;
+  font-family: "jost", sans;
+}
+
+.info-name {
+  font-size: 2rem;
+  color: #1e96fc;
+}
+
+@media only screen and (max-width: 720px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0 0;
+  }
+
+  .picture {
+    height: 18rem;
+  }
+
+  .about-info {
+    font-size: 1.5rem;
+  }
+
+  .info-name {
+    font-size: 1.5rem;
+  }
+}

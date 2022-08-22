@@ -1,0 +1,14 @@
+export { default as image } from "./image.svg";
+export { default as github } from "./icons/github.png";
+export { default as twitter } from "./icons/twitter.png";
+export { default as linkedin } from "./icons/linkedin.png";
+export { default as chalkui } from "./projectsImage/chalkui.png";
+export { default as shoplify } from "./projectsImage/shoplify.png";
+export { default as notekeeper } from "./projectsImage/notekeeper.png";
+export { default as express } from "./projectsImage/express.png";
+export { default as quizcorner } from "./projectsImage/quizcorner.png";
+export { default as html } from "./ProgrammingIcon/html.png";
+export { default as css } from "./ProgrammingIcon/css.png";
+export { default as javascript } from "./ProgrammingIcon/javascript.png";
+export { default as react } from "./ProgrammingIcon/react.png";
+export { default as redux } from "./ProgrammingIcon/redux.png";

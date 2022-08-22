@@ -1,0 +1,80 @@
+.nav {
+  display: flex;
+  flex: 1 1;
+  padding: 1rem;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  font-size: 2rem;
+  color: #1e96fc;
+  font-weight: 700;
+  font-family: "pacifico", cursive;
+  letter-spacing: 3px;
+  padding: 0.6rem;
+  border: 3px solid #1e96fc;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
+}
+
+/* .menu-icon {
+  font-size: 24px;
+} */
+
+.web-menu {
+  display: flex;
+}
+
+/* web */
+
+.web {
+  display: flex;
+  align-items: center;
+  /* flex: 1 1; */
+}
+
+.web-option {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0 1rem 0 0;
+  padding: 0.5rem;
+  /* margin-right: 16px; */
+}
+
+.web-option a {
+  text-decoration: none;
+  color: grey;
+}
+
+.web-option a:hover {
+  border-bottom-style: solid;
+  border-color: #1e96fc;
+}
+
+/* .option-icon,
+.web-option a {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.option-icon {
+  margin-right: 4px;
+}
+
+.web-option:last-child {
+  margin-right: 0;
+} */
+
+@media only screen and (max-width: 720px) { 
+  .menu {
+    display: none;
+  }
+}

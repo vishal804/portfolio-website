@@ -1,0 +1,16 @@
+.home-page-style {
+  margin: 0 11rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-page-style {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .home-page-style {
+    margin: 0 1rem;
+  }
+}

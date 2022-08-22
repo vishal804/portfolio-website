@@ -1,10 +1,10 @@
-import "./styles.css"
-
+import { HomePage } from "./component";
+import "./styles.css";
 function App() {
   return (
-    <div>
-      THIS IS Page
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
 

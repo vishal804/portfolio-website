@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  margin: 5rem 0 0 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "jost", sans;
+  letter-spacing: 3px;
+}
+
+.contact-container {
+  margin: 1rem 0;
+}
+
+.contact-left {
+  font-size: 1.25rem;
+}
+
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon-div {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.social-icon {
+  height: 2.2rem;
+}
